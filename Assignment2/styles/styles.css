@@ -42,6 +42,13 @@ img {
   margin-right: auto;
 }
 
+li {
+  list-style-type: none;
+  color: navy;
+  display: inline-block;
+  font-family: Georgia, serif;
+}
+
 section {
     margin-bottom: 50px;
   }
