@@ -91,6 +91,7 @@ nav {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .card h2 {
@@ -103,6 +104,10 @@ nav {
   text-align: center;
   max-width: 100%;
   margin: 0 auto 20px auto;
+}
+
+.card img:hover {
+  transform: scale(1.05);
 }
 
 ul {
@@ -125,7 +130,7 @@ section {
 
   .instagram-button {
     display: inline-block;
-    background-color: #e47a7a;
+    background-color: #9a2626;
     color: #eedddd;
     padding: 12px 24px;
     text-decoration: none;
