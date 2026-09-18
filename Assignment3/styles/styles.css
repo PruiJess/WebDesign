@@ -73,6 +73,38 @@ nav {
   border-radius: 10px;
 }
 
+.card-group {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  background-color: #3e3e3e;
+  color: #eedddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #c9c8cb;
+}
+
+.card p {
+  color: #c9e1e7;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
+}
+
 ul {
   padding: 0;
 }
