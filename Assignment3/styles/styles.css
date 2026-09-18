@@ -90,8 +90,9 @@ nav {
 .card img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 6px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .card h2 {
@@ -107,7 +108,15 @@ nav {
 }
 
 .card img:hover {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   transform: scale(3);
+  z-index: 1000;
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
 }
 
 ul {
