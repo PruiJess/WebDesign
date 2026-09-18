@@ -111,8 +111,7 @@ nav {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transform: scale(1.75);
+  transform: translate(-50%, -50%) scale(1.75);
   z-index: 1000;
   max-width: 80%;
   max-height: 80%;
@@ -148,7 +147,7 @@ section {
     margin-bottom: 20px;
   }
 
-  instagram-button:hover {
+  .instagram-button:hover {
     background-color: #6db0c1;
     color: #ffffff;
   }
