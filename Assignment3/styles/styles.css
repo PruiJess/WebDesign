@@ -112,7 +112,7 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transform: scale(3);
+  transform: scale(1.75);
   z-index: 1000;
   max-width: 80%;
   max-height: 80%;
