@@ -59,6 +59,20 @@ nav {
   border: 1px solid #000000;
 }
 
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
 ul {
   padding: 0;
 }
