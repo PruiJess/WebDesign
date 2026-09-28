@@ -45,6 +45,61 @@
 
 </p>
 
+<form class="astro-form">
+  <fieldset>
+    <legend>Request a Deep Sky Object</legend>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name"
+           placeholder="e.g. Jane Smith">
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"
+           placeholder="e.g. janesmith@email.com">
+
+    <label for="object-name">Deep Sky Object:</label>
+    <input type="text" id="object-name" name="object-name"
+           placeholder="e.g. Horsehead Nebula">
+
+    <label for="object-type">Object Type:</label>
+    <select name="object-type" id="object-type">
+      <option value="galaxy">Galaxy</option>
+      <option value="nebula">Nebula</option>
+      <option value="star-cluster">Star Cluster</option>
+      <option value="planetary-nebula">Planetary Nebula</option>
+    </select>
+
+    <label>Preferred Image Style:</label>
+
+    <label>
+      <input type="radio" name="style" value="color">
+      Full Color
+    </label>
+
+    <label>
+      <input type="radio" name="style" value="starless">
+      Starless
+    </label>
+
+    <label>
+      <input type="radio" name="style" value="narrowband">
+      Narrowband
+    </label>
+
+    <label>
+      <input type="checkbox" name="updates" value="yes">
+      Notify me when this object is photographed
+    </label>
+
+    <label for="notes">Additional Notes:</label>
+    <textarea id="notes" name="notes"
+      placeholder="Tell me why you'd like to see this object photographed."></textarea>
+
+    <button type="submit">Submit Request</button>
+
+  </fieldset>
+</form>
+
 </main>
 
 <footer>

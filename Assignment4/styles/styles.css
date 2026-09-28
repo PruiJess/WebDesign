@@ -144,6 +144,84 @@ nav {
   width: auto;
 }
 
+.astro-form {
+  background-color: #3e3e3e;
+  color: #eedddd;
+  width: 75%;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(109, 176, 193, 0.25);
+}
+
+.astro-form fieldset {
+  border: none;
+  padding: 0;
+}
+
+.astro-form legend {
+  font-family: "Audiowide", sans-serif;
+  color: #eedddd;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.astro-form label {
+  display: block;
+  margin-top: 15px;
+  color: #c9e1e7;
+  font-family: "Share Tech", sans-serif;
+  text-align: left;
+}
+
+.astro-form input[type="text"],
+.astro-form input[type="email"],
+.astro-form select,
+.astro-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #6db0c1;
+  background-color: #2f2f2f;
+  color: #eedddd;
+  font-family: "Iceland", sans-serif;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+.astro-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.astro-form {
+  background-image: linear-gradient(
+    135deg,
+    #3e3e3e,
+    #2f2f2f,
+    #263845
+  );
+}
+
+.astro-form button {
+  margin-top: 20px;
+  background-color: #9a2626;
+  color: #eedddd;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.astro-form button:hover {
+  background-color: #6db0c1;
+  color: #ffffff;
+}
+
 ul {
   padding: 0;
 }
