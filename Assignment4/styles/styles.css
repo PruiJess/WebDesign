@@ -35,7 +35,7 @@ h1 {
   color: #eedddd;
   text-align: center;
   font-family: "Audiowide", sans-serif;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
   margin-top: 40px;
   text-align: center;  
   font-family: "Share Tech", sans-serif;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
   max-width: 1000px;
   margin: 0 auto 40px auto;
   font-family: "Iceland", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .intro {
@@ -74,7 +74,7 @@ li {
   color: #000080;
   display: inline-block;
   font-family: "Share Tech", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 nav {
