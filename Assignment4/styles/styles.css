@@ -12,15 +12,36 @@ body {
    margin: 40px;
 }
 
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iceland-regular {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 h1 {
   color: #eedddd;
   text-align: center;
+  font-family: "Audiowide", sans-serif;
 }
 
 h2 {
   color: #eedddd;
   margin-top: 40px;
-  text-align: center;
+  text-align: center;  
+  font-family: "Share Tech", sans-serif;
 }
 
 p {
@@ -28,6 +49,7 @@ p {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto 40px auto;
+  font-family: "Iceland", sans-serif;
 }
 
 .intro {
