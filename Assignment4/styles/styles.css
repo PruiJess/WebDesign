@@ -62,11 +62,30 @@ p {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#gallery img {
+  width: 30%;
+  min-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #6db0c1;
+  box-shadow: 0 4px 8px #25323433;
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #25323433;
 }
 
 li {
