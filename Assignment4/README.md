@@ -1,8 +1,13 @@
- # Jesse Pruitt Gallery
-## This will be a space dedicated to displaying random projects afrom photography to 3D printing.
+## I wasn't able to really find a use for icons on my website as it currently exists so I haven't incorporated them yet. 
 
-### So far I am feeling ok I think about the basics, I am able to navigate github and visual studio more easily and address issues as they pop up.
+## For colors I am keeping the look consistent with dark colors with pops of retrowave inspired color for borders and accents. 
 
-### Using components has shown me that I need to dig in and organize my photos into categories so I can more easily assign cards for better readability. The longer I kick that can down the road the more difficult it will be I think. 
+## I picked Auto-Wide, Iceland, and Share Tech fonts for my site, I like that they are easily readible and maintain a techy/vintage feel. 
 
-### I am having trouble getting the hover to enlarge images css to work how I want. So far I have it working reliably on the heart nebula and rho ophiuchi but it is intermittent on the rosette and eagle nebulas. I prefer hover to enlarge over click to enlarge as I don't like having to open and close images. If I can get it to work I will implement it across the site with the other photos 
+## I made a table to display my photography equipment for my photo gallery, it has my camera body, lenses, and favorite tripod.
+
+## I wanted the form to both feel like an aesthetic fit as well as have a visual style that made it stand out. I tried to maintain the retrowave feel with the gradient background. For structure I made the form in a way that mimics how I plan my own photography projects.
+
+## I used flexbox to style my gallery, eliminating the verticle layout for a cleaner grid layout that displays 3 images per row. I did this because my photos vary in dimensions and I wanted them to tile together cleanly with flexibility for adding more images later this week. 
+
+## This week made more sense so I think I am getting a handle on the basics, I still relied on google searches to find examples that fit my design goals but so far I am happy with how it is coming together and looking in general. I am going to take the time this week to add more pages so that each category of imageery has its own dedicated page and then use cards to link them on the index page. 
