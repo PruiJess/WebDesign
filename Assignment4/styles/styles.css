@@ -248,6 +248,40 @@ nav {
   color: #ffffff;
 }
 
+.equipment-table {
+  width: 85%;
+  border-collapse: collapse;
+  margin: 50px auto;
+  background-color: #3e3e3e;
+  box-shadow: 0 0 15px rgba(109, 176, 193, 0.3);
+  border: 2px solid #6db0c1;
+}
+
+.equipment-table th {
+  background-color: #9a2626;
+  border: 1px solid #6db0c1;
+  padding: 15px;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.2rem;
+  color: #eedddd;
+}
+
+.equipment-table td {
+  padding: 12px;
+  border: 1px solid #6db0c1;
+  font-family: "Iceland", sans-serif;
+  font-size: 1.1rem;
+   color: #c9e1e7;
+}
+
+.equipment-table tr:nth-child(even) {
+  background-color: #2f2f2f;
+}
+
+.equipment-table tr:hover {
+  background-color: #52235d;
+}
+
 ul {
   padding: 0;
 }
