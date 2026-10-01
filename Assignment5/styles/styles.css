@@ -115,16 +115,23 @@ nav {
 
 nav ul {
   display:inline-flex;
-  gap: 10px;
-  background-color: #3e3e3e;
-  padding: 10px 15px;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  margin: 0;
+  gap: 8px;
+  padding: 0;
+  border: none;
 }
 
 nav a {
+  display: inline-block;
   padding: 10px 5px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #3e3e3e;
+  transition: background-color 0.3s ease;
+
+}
+
+nav a:hover {
+  background-color: #52235d;
 }
 
 .hero {
