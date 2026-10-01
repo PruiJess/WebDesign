@@ -101,14 +101,20 @@ li {
   display: inline-block;
   font-family: "Share Tech", sans-serif;
   font-size: 24px;
+  margin: 0 5px;
 }
 
 nav {
   text-align: center;
   margin-bottom: 40px;
+  margin-top: 40px;
   background-color: #3e3e3e;
   padding: 10px;
   border: 1px solid #000000;
+}
+
+nav a {
+  padding: 10px 5px;
 }
 
 .hero {
