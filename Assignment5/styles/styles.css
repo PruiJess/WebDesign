@@ -129,6 +129,8 @@ nav a {
 
 nav a:hover {
   background-color: #52235d;
+  color: #6db0c1;
+  box-shadow: 0 0 12px rgba(109, 176, 193, 0.5);
 }
 
 .hero {
