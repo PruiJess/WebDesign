@@ -78,16 +78,19 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
   margin-top: 40px;
 }
 
 #gallery img {
-  width: 30%;
-  min-width: 250px;
+  flex: 1 1 300px;
+  min-width: 325px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   border: 2px solid #3e1416;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 #gallery img:hover {
@@ -389,6 +392,25 @@ section {
     margin-bottom: 50px;
   }
 
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  #lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #6db0c1;
+  }
+  
   .instagram-button {
     display: inline-block;
     background-color: #9a2626;
