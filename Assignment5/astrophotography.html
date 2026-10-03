@@ -170,6 +170,30 @@ Follow Buzzsaw Studio on Instagram
 
 </footer>
 
+<div id="lightbox">
+  <img id="lightbox-img" src="" alt="">
+    
+</div>
+
+<script>
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('#gallery img').forEach(img => {
+    img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightbox.style.display = 'flex';
+    });
+});
+
+lightbox.addEventListener('click', event => {
+    if (event.target === lightbox) {
+        lightbox.style.display = 'none';
+    }
+});
+</script>
+
       </body>
 </html>
 
