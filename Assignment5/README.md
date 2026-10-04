@@ -1,13 +1,26 @@
-## I wasn't able to really find a use for icons on my website as it currently exists so I haven't incorporated them yet. 
+## This week I edited all of my photos to be 1000 pixels wide, this allowed for a much leaner appearance while tiling in my galleries.
 
-## For colors I am keeping the look consistent with dark colors with pops of retrowave inspired color for borders and accents. 
+## I added 2 additional galleries, artwork and astrophotography, this allowed me to cleanup the homepage and give the site a more aethetic and professional feel
 
-## I picked Auto-Wide, Iceland, and Share Tech fonts for my site, I like that they are easily readible and maintain a techy/vintage feel. 
+## I removed the hover to enlarge feature and replaced it with a click to enlarge and click to exit approach. This made the scrolling and browsing functionality less jarring and allows users to only enlarge images of interest
 
-## I made a table to display my photography equipment for my photo gallery, it has my camera body, lenses, and favorite tripod.
+## Component Plan
+Webpage the component will be applied to:
 
-## I wanted the form to both feel like an aesthetic fit as well as have a visual style that made it stand out. I tried to maintain the retrowave feel with the gradient background. For structure I made the form in a way that mimics how I plan my own photography projects.
+Artwork Gallery, Photography Gallery, and Astrophotography Gallery
 
-## I used flexbox to style my gallery, eliminating the verticle layout for a cleaner grid layout that displays 3 images per row. I did this because my photos vary in dimensions and I wanted them to tile together cleanly with flexibility for adding more images later this week. 
+Type of component:
+Responsive Masonry Image Gallery
 
-## This week made more sense so I think I am getting a handle on the basics, I still relied on google searches to find examples that fit my design goals but so far I am happy with how it is coming together and looking in general. I am going to take the time this week to add more pages so that each category of imageery has its own dedicated page and then use cards to link them on the index page. 
+Why it's needed:
+Users expect artwork and photography websites to display images in an organized, visually appealing manner. A masonry gallery maximizes screen space and allows users to browse a large collection of images efficiently.
+
+Features:
+Images
+Hover effects
+Click-to-enlarge lightbox
+Responsive layout
+Consistent spacing
+
+What you'll use to build it:
+CSS Columns and JavaScript
