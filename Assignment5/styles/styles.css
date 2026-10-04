@@ -78,16 +78,12 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  max-width: 1800px;
-  margin: 40px auto;
 }
 
 #gallery img {
-  width: auto;
-  max-width: 100%;
+  width: calc((100% - 30px)/4);
   height: auto;
-  border-radius: 10px;
-  border: 2px solid #3e1416;
+  box-sizing: border-box;
 }
 
 #gallery img:hover {
