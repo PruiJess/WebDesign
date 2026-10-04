@@ -142,7 +142,7 @@ nav a {
 
 nav a:hover {
   background-color: #52235d;
-  color: #efc975;
+  color: #efb275;
   box-shadow: 0 0 12px rgba(109, 176, 193, 0.5);
 }
 
@@ -229,8 +229,8 @@ nav a:hover {
 
 .feature-card:hover {
     transform: translateY(-8px) scale(1.05);
-    border-color: #efc975;
-    box-shadow: 0 0 15px rgba(109,176,193,.5), 0 0 35px rgba(109,176,193,.3);
+    border-color: #efb275;
+    box-shadow: 0 0 15px rgba(193, 133, 109, 0.5), 0 0 35px rgba(193, 148, 109, 0.3);
 }
 
 .feature-card img {
@@ -346,7 +346,7 @@ nav a:hover {
 }
 
 .astro-form button:hover {
-  background-color: #efc975;
+  background-color: #efb275;
   color: #ffffff;
 }
 
@@ -356,12 +356,12 @@ nav a:hover {
   margin: 50px auto;
   background-color: #3e3e3e;
   box-shadow: 0 0 15px rgba(109, 176, 193, 0.3);
-  border: 2px solid #efc975;
+  border: 2px solid #efb275;
 }
 
 .equipment-table th {
   background-color: #201d29;
-  border: 1px solid #efc975;
+  border: 1px solid #efb275;
   padding: 15px;
   font-family: "Share Tech", sans-serif;
   font-size: 1.2rem;
@@ -370,7 +370,7 @@ nav a:hover {
 
 .equipment-table td {
   padding: 12px;
-  border: 1px solid #efc975;
+  border: 1px solid #efb275;
   font-family: "Iceland", sans-serif;
   font-size: 1.1rem;
    color: #e7dec9;
@@ -418,7 +418,7 @@ section {
     width: auto;
     height: auto;
     border-radius: 10px;
-    border: 2px solid #efc975;
+    border: 1px solid #1f160c;
   }
 
   .instagram-button {
@@ -433,7 +433,7 @@ section {
   }
 
   .instagram-button:hover {
-    background-color: #efc975;
+    background-color: #efb275;
     color: #ffffff;
   }
 
