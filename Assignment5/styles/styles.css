@@ -51,7 +51,7 @@ h2 {
 }
 
 p {
-  color: #c9e1e7;
+  color: #e7dec9;
   text-align: center;
   max-width: 1500px;
   margin: 0 auto 40px auto;
@@ -142,7 +142,7 @@ nav a {
 
 nav a:hover {
   background-color: #52235d;
-  color: #6db0c1;
+  color: #efc975;
   box-shadow: 0 0 12px rgba(109, 176, 193, 0.5);
 }
 
@@ -188,7 +188,7 @@ nav a:hover {
 }
 
 .card p {
-  color: #c9e1e7;
+  color: #e7dec9;
   text-align: center;
   max-width: 100%;
   margin: 0 auto 20px auto;
@@ -229,7 +229,7 @@ nav a:hover {
 
 .feature-card:hover {
     transform: translateY(-8px) scale(1.05);
-    border-color: #6db0c1;
+    border-color: #efc975;
     box-shadow: 0 0 15px rgba(109,176,193,.5), 0 0 35px rgba(109,176,193,.3);
 }
 
@@ -298,7 +298,7 @@ nav a:hover {
 .astro-form label {
   display: block;
   margin-top: 15px;
-  color: #c9e1e7;
+  color: #e7dec9;
   font-family: "Share Tech", sans-serif;
   text-align: left;
 }
@@ -311,7 +311,7 @@ nav a:hover {
   padding: 10px;
   margin-top: 5px;
   border-radius: 6px;
-  border: 1px solid #6db0c1;
+  border: 1px solid #efc975;
   background-color: #2f2f2f;
   color: #eedddd;
   font-family: "Iceland", sans-serif;
@@ -346,7 +346,7 @@ nav a:hover {
 }
 
 .astro-form button:hover {
-  background-color: #6db0c1;
+  background-color: #efc975;
   color: #ffffff;
 }
 
@@ -356,12 +356,12 @@ nav a:hover {
   margin: 50px auto;
   background-color: #3e3e3e;
   box-shadow: 0 0 15px rgba(109, 176, 193, 0.3);
-  border: 2px solid #6db0c1;
+  border: 2px solid #efc975;
 }
 
 .equipment-table th {
   background-color: #201d29;
-  border: 1px solid #6db0c1;
+  border: 1px solid #efc975;
   padding: 15px;
   font-family: "Share Tech", sans-serif;
   font-size: 1.2rem;
@@ -370,10 +370,10 @@ nav a:hover {
 
 .equipment-table td {
   padding: 12px;
-  border: 1px solid #6db0c1;
+  border: 1px solid #efc975;
   font-family: "Iceland", sans-serif;
   font-size: 1.1rem;
-   color: #c9e1e7;
+   color: #e7dec9;
 }
 
 .equipment-table tr:nth-child(even) {
@@ -395,7 +395,7 @@ a {
 }
 
 a:hover {
-  color: #6db0c1;
+  color: #efc975;
 }
 
 section {
@@ -418,7 +418,7 @@ section {
     width: auto;
     height: auto;
     border-radius: 10px;
-    border: 3px solid #6db0c1;
+    border: 2px solid #efc975;
   }
 
   .instagram-button {
@@ -433,7 +433,7 @@ section {
   }
 
   .instagram-button:hover {
-    background-color: #6db0c1;
+    background-color: #efc975;
     color: #ffffff;
   }
 
