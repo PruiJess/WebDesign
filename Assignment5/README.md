@@ -6,14 +6,13 @@
 
 ## Component Plan
 Webpage the component will be applied to:
-
 Artwork Gallery, Photography Gallery, and Astrophotography Gallery
 
 Type of component:
-Responsive Masonry Image Gallery
+Responsive Image Grid Gallery
 
 Why it's needed:
-Users expect artwork and photography websites to display images in an organized, visually appealing manner. A masonry gallery maximizes screen space and allows users to browse a large collection of images efficiently.
+Users expect gallery websites to display high rresolution images in an organized, visually appealing manner. A grid gallery maximizes screen space and allows users to browse a large collection of images efficiently.
 
 Features:
 Images

@@ -102,15 +102,9 @@ img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #gallery img {
     columns: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  #gallery img {
-    columns: 1;
   }
 }
 
