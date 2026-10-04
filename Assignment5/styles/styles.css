@@ -78,18 +78,17 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  max-width: 180px;
+  max-width: 1800px;
   margin: 40px auto;
 }
 
 #gallery img {
   flex: 0 1 420px;
-  max-width: 120px;
+  max-width: 420px;
   width: auto;
   height: auto;
   border-radius: 10px;
   border: 2px solid #3e1416;
-  transition: transform 0.3s ease;
 }
 
 #gallery img:hover {
