@@ -83,9 +83,8 @@ img {
 }
 
 #gallery img {
-  flex: 0 1 420px;
-  max-width: 420px;
   width: auto;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   border: 2px solid #3e1416;
