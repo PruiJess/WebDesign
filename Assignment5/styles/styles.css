@@ -77,18 +77,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   gap: 10px;
 }
 
 #gallery img {
-  flex: 0 1 350px;
-  max-width: 350px;
+  flex: 0 0 calc(25% - 10px);
+  max-width: calc(25% - 10px);
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  border: 2px solid #3e1416;
-  cursor: pointer;
+  box-sizing: border-box;
   transition: transform 0.3s ease;
 }
 
@@ -99,15 +96,13 @@ img {
 
 @media (max-width: 1200px) {
   #gallery img {
-    flex: 0 1 calc(33.333% - 10px);
-    min-width: calc(33.333% - 10px);
+    width: 0 1 calc(33.333% - 10px);
   }
 }
 
 @media (max-width: 768px) {
   #gallery img {
-    flex: 0 1 calc(50% - 10px);
-    min-width: calc(50% - 10px);
+    width: 0 1 calc(50% - 10px);
   }
 }
 
