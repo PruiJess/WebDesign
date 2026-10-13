@@ -1,25 +1,7 @@
-## This week I edited all of my photos to be 1000 pixels wide, this allowed for a much leaner appearance while tiling in my galleries.
+## I do think that I will continue to devolope this site for the final, I would like to end up with a website that I can use at the end of the semester. I will also use this as a base to help develope a website for my friend's business.
 
-## I added 2 additional galleries, artwork and astrophotography, this allowed me to cleanup the homepage and give the site a more aethetic and professional feel
+### I want to add more refined styling, especially to the cards, I want to have the images on the homepage cards rotate out every few seconds as a preview feature.
 
-## I removed the hover to enlarge feature and replaced it with a click to enlarge and click to exit approach. This made the scrolling and browsing functionality less jarring and allows users to only enlarge images of interest
+### I think it would be nice to implement a storefront for art prints of the astrophotography and photography works, maybe a way to request different sizes and framing options.
 
-## Component Plan
-Webpage the component will be applied to:
-Artwork Gallery, Photography Gallery, and Astrophotography Gallery
-
-Type of component:
-Responsive Image Grid Gallery
-
-Why it's needed:
-Users expect gallery websites to display high rresolution images in an organized, visually appealing manner. A grid gallery maximizes screen space and allows users to browse a large collection of images efficiently.
-
-Features:
-Images
-Hover effects
-Click-to-enlarge lightbox
-Responsive layout
-Consistent spacing
-
-What you'll use to build it:
-CSS Columns and JavaScript
+### I need to optimize the website for mobile use, right now it works but is a bit clunky on my phone and most people will be using their phone when browsing the website.
