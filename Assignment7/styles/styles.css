@@ -127,6 +127,27 @@ section{
 }
 
 
+.intro{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:3rem;
+}
+
+.intro-text{
+    flex:2;
+}
+
+.intro-action{
+    flex:1;
+    text-align:right;
+}
+
+.intro h2{
+    margin-bottom:1rem;
+}
+
+
 .btn{
     display:inline-block;
 
