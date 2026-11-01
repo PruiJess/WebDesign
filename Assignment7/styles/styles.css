@@ -341,16 +341,16 @@ section{
 .resource-categories{
 
     display:grid;
-
-    grid-template-columns:
-        repeat(auto-fit,minmax(280px,1fr));
-
+    grid-template-columns: repeat(3,1fr);
     gap:2rem;
+    margin-top:2rem;
 }
 
 .resource-card{
-
+    display:flex;
+    flex-direction:column;
     padding:2rem;
+    height:100%;
 }
 
 .resource-card img{
@@ -369,6 +369,11 @@ section{
 .resource-card h3{
 
     margin-bottom:.75rem;
+}
+
+.resource-card p{
+
+    flex-grow:1;
 }
 
 .resource-card a{
@@ -803,5 +808,22 @@ footer{
     .footer-container{
         flex-direction:column;
     }
+}
+
+@media(max-width:900px){
+
+    .resource-categories{
+        grid-template-columns:
+            repeat(2,1fr);
+    }
 
 }
+
+@media(max-width:600px){
+
+    .resource-categories{
+        grid-template-columns:1fr;
+    }
+
+}
+
