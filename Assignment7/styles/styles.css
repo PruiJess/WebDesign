@@ -603,4 +603,70 @@ footer{
 
 }
 
+/* ==========================
+   ETHICAL AI PAGE
+========================== */
+
+.principles h2{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+.principle-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(220px,1fr));
+    gap:2rem;
+}
+
+.checklist-section{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:2rem;
+}
+
+.checklist{
+    background:#f6f9fb;
+    padding:2rem;
+    border-radius:20px;
+}
+
+.checklist h2{
+    margin-bottom:1rem;
+}
+
+.checklist ul{
+    padding-left:1.5rem;
+}
+
+.checklist li{
+    margin-bottom:.75rem;
+}
+
+.guidance-box{
+    background:#f6f9fb;
+    padding:2rem;
+    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.guidance-box h3{
+    margin-bottom:1rem;
+}
+
+.guidance-box p{
+    margin-bottom:1.5rem;
+}
+
+@media(max-width:900px){
+
+    .checklist-section{
+        grid-template-columns:1fr;
+    }
+
+}
+
 }
