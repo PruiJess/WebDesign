@@ -2,6 +2,8 @@
     --primary:#00bfa6;
     --primary-dark:#009985;
     --secondary:#293462;
+    --secondary-dark:#1e274e;
+
     --dark:#222;
     --light:#f5f7fa;
     --white:#ffffff;
@@ -164,6 +166,15 @@ ul{
     border-radius:8px;
 
     transition:.3s;
+
+    font-weight:600;
+
+    text-align:center;
+}
+
+.btn,
+.btn:visited{
+    color:white;
 }
 
 .primary{
@@ -173,10 +184,16 @@ ul{
 
 .primary:hover{
     background:var(--primary-dark);
+    color:white;
 }
 
 .secondary{
     background:var(--secondary);
+    color:white;
+}
+
+.secondary:hover{
+    background:var(--secondary-dark);
     color:white;
 }
 
@@ -218,19 +235,24 @@ ul{
     margin-bottom:1rem;
 }
 
-.card img{
-    border-radius:12px;
+.card p{
     margin-bottom:1rem;
 }
 
-.card a{
+.card img{
+    border-radius:12px;
+    margin-bottom:1rem;
+    width:100%;
+}
+
+.card a:not(.btn){
     display:inline-block;
-    margin-top:1rem;
+    margin-top:.5rem;
     color:var(--primary);
     font-weight:600;
 }
 
-.card a:hover{
+.card a:not(.btn):hover{
     color:var(--primary-dark);
 }
 
@@ -268,13 +290,18 @@ ul{
     margin-bottom:.5rem;
 }
 
-.panel a{
+/* IMPORTANT FIX */
+.panel a:not(.btn){
     color:var(--primary);
     font-weight:600;
 }
 
+.panel a:not(.btn):hover{
+    color:var(--primary-dark);
+}
+
 /* =========================
-   SPLIT LAYOUTS
+   FLEX LAYOUTS
 ========================= */
 
 .split-layout{
