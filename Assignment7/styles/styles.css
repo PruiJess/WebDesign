@@ -262,6 +262,27 @@ ul{
 }
 
 /* =========================
+   FEATURED LINKS
+========================= */
+
+.featured-link{
+    border-top:6px solid var(--primary);
+}
+
+.featured-link h3{
+    font-size:1.35rem;
+}
+
+.featured-link a{
+    font-size:1rem;
+    font-weight:700;
+}
+
+.featured-link:hover{
+    transform:translateY(-8px);
+}
+
+/* =========================
    PANELS
 ========================= */
 
